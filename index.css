@@ -1,12 +1,23 @@
-body,ul,li,{
+body,ul,li{
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
 body{
-	background:url(timg11.jpg);
-	background-size: center;
-	overflow: hidden;
+	position: fixed;
+	top:0;left: 0;right: 0;bottom: 0;
+	background:url(timg11.jpg)no-repeat;
+	background-size:100%;
+	/*overflow: hidden;*/
+
+}
+.youhe{
+	width: 50%;
+	position: fixed;
+	top:0;right: 0;
+	bottom: 0;left: 0;
+	margin: auto;
+	z-index: 81213213122288;
 }
 .tsk{
 	width: 500px;
@@ -56,13 +67,22 @@ body{
 	z-index: 324234234;
 	
 }
+.zhong{
+	width: 25%;
+	position: fixed;
+	top:0;right: 0;
+	bottom: 0;
+	margin: auto;
+}
 .yinxiang{
 	width: 500px;
 	height: 300px;
 	background: url(222.jpg);
 	background-size: cover;
 	position: absolute;
-	top:170px;left:860px;
+	top:0;bottom: 0;
+	right:0;
+	margin: auto;
 	transform:translateX(-1400px);
 }
 .yinxiang.hui{
@@ -77,6 +97,7 @@ body{
 
 
 }
+
 .changjin{
 	width: 600px;
 	height: 600px;
@@ -89,7 +110,7 @@ body{
 	background-size: center;
 	background-position: -13px 0px;
 	transform:translateX(-1000px);
-	z-index: 888;
+
 }
 .yxcd.hui{
 	transition:all 2s ease .1s;
@@ -97,16 +118,23 @@ body{
 
 
 }
+.zuohe{
+	width: 25%;
+	position: fixed;
+	top:0;left: 0;
+	bottom:0;
+	margin: auto;
+	z-index: 342424;
+}
 .yxcd{
 	width: 150px;
 	height: 600px;
 	position: absolute;
-	top:0;left: 0;
+	top:0;right: 0;
 	bottom: 0;
 	margin: auto;
-	margin-left:200px;
     transform:translateX(-1000px);
-	z-index: 888;
+
 }
 .ksyx{
 	width: 150px;
